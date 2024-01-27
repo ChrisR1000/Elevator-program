@@ -1,0 +1,77 @@
+import java.util.Scanner;
+public class Elevator {
+	
+public static void main (String[] args) {
+Scanner in = new Scanner (System.in);	
+
+System.out.println("Select floor: ");
+int floor = in.nextInt();
+int currentFloor;
+int newFloor;
+
+// Elevator starting from floor 0
+if (floor >= 10)  // Elevator goes up
+{
+System.out.println("Elevator has arrived to floor 10");
+
+int floor1 = in.nextInt();
+}
+else if (floor >= 9)
+{
+System.out.println("Elevator has arrived to floor 9");
+
+int floor2 = in.nextInt();
+}
+else if (floor >= 8)
+{
+	System.out.println("Elevator has arrived to floor 8");
+	
+	int floor3 = in.nextInt();
+}
+else if (floor >= 7)
+{
+	System.out.println("Elevator has arrived to floor 7");
+	
+	int floor4 = in.nextInt();
+}
+else if (floor >= 6)
+{
+	System.out.println("Elevator has arrived to floor 6");
+	
+	int floor5 = in.nextInt();
+}
+else if (floor >= 5)
+{
+	System.out.println("Elevator has arrived to floor 5");
+	
+	int floor6 = in.nextInt();
+}
+else if (floor >= 4)
+{
+	System.out.println("Elevator has arrived to floor 4");
+	
+	int floor7 = in.nextInt();
+}
+else if (floor >= 3)
+{
+	System.out.println("Elevator has arrived to floor 3");
+	
+	int floor8 = in.nextInt();
+}
+else if (floor >= 2)
+{
+	System.out.println("Elevator has arrived to floor 2");
+	
+	int floor9 = in.nextInt();
+}
+else if (floor >= 1)
+{
+	System.out.println("Elevator has arrived to floor 1");
+	
+	int floor10 = in.nextInt();
+}
+
+
+
+
+}}
